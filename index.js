@@ -18,10 +18,10 @@ client.login(process.env.FB_EMAIL, process.env.FB_PASSWORD).then(() => {
             [userId]: userInfo
         };
 
-        // fs.appendFile(`./logs/log-2019-12-29.txt`, JSON.stringify(content), function (err) {
-        //     if (err) throw err;
-        //     console.log(`Saved !`);
-        // });
+        fs.appendFile(`./logs/log-2019-12-29.txt`, JSON.stringify(content), function (err) {
+            if (err) throw err;
+            console.log(`Saved !`);
+        });
         console.log(JSON.stringify(content));
 
         client.sendMessage(userId,
