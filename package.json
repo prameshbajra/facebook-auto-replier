@@ -15,5 +15,8 @@
         "facebook-chat-api": "^1.6.1",
         "libfb": "^2.3.5",
         "node-schedule": "^1.3.2"
+    },
+    "engines": {
+        "node": "10.2"
     }
 }
