@@ -16,3 +16,6 @@ FB_PASSWORD=<PASSWORD>
 
 
 No need to say this but you will need to run `npm install` for sure.
+
+
+> Just a heads up, FB does not encourage you to do this. Hence you might get banned.
